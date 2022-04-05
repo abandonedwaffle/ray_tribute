@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.mid-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+.main-title {
+    font-family: 'Bayon', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    
+    color: #EAB543;
+    margin-bottom: 30px;
+}
+
+
+
+.ray-img, .img-caption{
+    margin-left: 40px;
+    color: whitesmoke;
+    margin-top: 10px;
+    text-align: center;    
+}
+
+.name {
+    margin-left: 200px;
+    font-size: 30px;
+    color: whitesmoke;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-right: 200px;
+    text-align: center;
+
+}
+.name-text {
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 100px;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.known-work {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+.know-work-container {
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.quote {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.wiki-entry {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+ }
