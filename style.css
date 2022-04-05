@@ -15,8 +15,18 @@ body {
 .mid-container {
     display: flex;
     margin-bottom: 40px;
+    
 }
 
+@media (max-width: 800px) {
+    .mid-container {
+      flex-direction: column;
+    }
+    .ray-img {
+        width: 100%;
+        height: auto;
+    }
+  }
 
 .main-title {
     font-family: 'Bayon', sans-serif;
@@ -71,6 +81,12 @@ body {
     margin-bottom: 30px;
     
 }
+@media (max-width: 800px) {
+    .know-work-container {
+      flex-direction: column;
+    }
+  }
+
 .quote {
     text-align: center;
     color: whitesmoke;
